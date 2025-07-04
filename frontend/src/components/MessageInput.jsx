@@ -153,7 +153,7 @@ const MessageInput = () => {
             setImagePreview(null);
             if (fileInputRef.current) fileInputRef.current.value = '';
         } catch (error) {
-            console.log('Failed to send message', error);
+            // console.log('Failed to send message', error);
         }
     };
 
